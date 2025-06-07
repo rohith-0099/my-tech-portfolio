@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohith | AI & Data Science Portfolio</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- If you add more JavaScript functionality later, link it here: -->
+    <!-- <script src="script.js" defer></script> -->
+</head>
+<body>
+    <!-- Header/Navigation Bar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-90 shadow-lg py-4">
+        <nav class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Site title/name - Navigation links remain functional for internal scrolling -->
+            <a href="#hero" class="text-xl md:text-2xl font-bold text-white hover:text-gray-300 transition-colors duration-300">ROHITH</a>
+            <!-- Navigation links -->
+            <ul class="flex space-x-6 md:space-x-10 text-lg">
+                <li><a href="#about" class="text-white hover:text-gray-400 transition-colors duration-300">About</a></li>
+                <li><a href="#projects" class="text-white hover:text-gray-400 transition-colors duration-300">Projects</a></li>
+                <li><a href="#skills" class="text-white hover:text-gray-400 transition-colors duration-300">Skills</a></li>
+                <li><a href="#contact" class="text-white hover:text-gray-400 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex flex-col justify-center items-center text-center p-8 bg-gradient-to-br from-black to-gray-900">
+        <div class="max-w-4xl mx-auto">
+            <!-- Profile Image (Placeholder) -->
+            <!-- Consider replacing this with a professional black and white photo of yourself -->
+            <img src="https://placehold.co/200x200/333333/FFFFFF?text=ROHITH" alt="Rohith's Profile" class="w-40 h-40 rounded-full mx-auto mb-6 border-4 border-white object-cover">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight text-white mb-4">
+                ROHITH
+            </h1>
+            <p class="text-xl md:text-3xl text-gray-300 mb-8">
+                B.Tech in Artificial Intelligence & Data Science
+            </p>
+            <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10">
+                Bridging innovation with practical AI solutions, passionate about leveraging data-driven insights to build impactful systems.
+            </p>
+            <!-- Call to action button - removed href attribute -->
+            <div class="inline-block bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-300 transition-all duration-300 transform hover:scale-105 shadow-lg non-clickable-button">
+                Explore My Projects
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20 md:py-28 bg-gray-950 px-8">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl md:text-5xl font-bold text-center text-white mb-12">About Me</h2>
+            <div class="text-lg md:text-xl text-gray-300 space-y-6 leading-relaxed">
+                <p>
+                    I'm Rohith, currently pursuing my B.Tech in Artificial Intelligence and Data Science. My journey into technology began with a strong foundation laid during my diploma, where I cultivated a deep curiosity for how systems work and how they can be optimized.
+                </p>
+                <p>
+                    My passion lies in leveraging the power of AI and data to solve complex real-world problems. I thrive on transforming concepts into tangible solutions, from building intelligent automation systems to extracting meaningful insights from vast datasets. My practical experience spans various domains, reflecting my versatility and problem-solving drive.
+                </p>
+                <p>
+                    I am constantly seeking new challenges and opportunities to expand my technical expertise and contribute to impactful projects. I am eager to collaborate and innovate at the intersection of AI, data, and practical applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 md:py-28 bg-black px-8">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-3xl md:text-5xl font-bold text-center text-white mb-12">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
+                <!-- Project 1: Object Detection -->
+                <div class="bg-gray-900 rounded-xl p-8 shadow-2xl border border-gray-700 hover:border-white transition-all duration-300 transform hover:-translate-y-2">
+                    <h3 class="text-2xl md:text-3xl font-semibold text-white mb-4">Real-time Object Detection System</h3>
+                    <p class="text-gray-400 mb-6 text-base md:text-lg">
+                        Developed a robust object detection system capable of identifying and localizing various objects in real-time video streams, useful for surveillance and automated analysis.
+                    </p>
+                    <p class="text-gray-500 text-sm md:text-base mb-6">
+                        <strong class="text-white">Technologies:</strong> Python, OpenCV, TensorFlow/Keras (YOLO/SSD), NumPy
+                    </p>
+                    <!-- Button with animation, no link -->
+                    <div class="inline-block bg-white text-black px-6 py-3 rounded-full text-md font-medium hover:bg-gray-300 transition-colors duration-300 non-clickable-button">
+                        View on GitHub
+                    </div>
+                </div>
+
+                <!-- Project 2: Temp & Moisture, Smoke/Flammable Gas Detection -->
+                <div class="bg-gray-900 rounded-xl p-8 shadow-2xl border border-gray-700 hover:border-white transition-all duration-300 transform hover:-translate-y-2">
+                    <h3 class="text-2xl md:text-3xl font-semibold text-white mb-4">IoT Environmental Monitoring System</h3>
+                    <p class="text-gray-400 mb-6 text-base md:text-lg">
+                        Designed and implemented an IoT-based system for real-time monitoring of temperature, moisture, smoke, and flammable gas levels, providing early warning alerts.
+                    </p>
+                    <p class="text-gray-500 text-sm md:text-base mb-6">
+                        <strong class="text-white">Technologies:</strong> Arduino, ESP32/ESP8266, DHT11, MQ-2, NodeMCU, Custom Sensors, IoT Platforms
+                    </p>
+                    <!-- Button with animation, no link -->
+                    <div class="inline-block bg-white text-black px-6 py-3 rounded-full text-md font-medium hover:bg-gray-300 transition-colors duration-300 non-clickable-button">
+                        View on GitHub
+                    </div>
+                </div>
+
+                <!-- Project 3: Emergency Medical Code Generating -->
+                <div class="bg-gray-900 rounded-xl p-8 shadow-2xl border border-gray-700 hover:border-white transition-all duration-300 transform hover:-translate-y-2">
+                    <h3 class="text-2xl md:text-3xl font-semibold text-white mb-4">Automated Medical Patient Data Code Generator</h3>
+                    <p class="text-gray-400 mb-6 text-base md:text-lg">
+                        Developed a software application to automatically generate secure, unique codes for patient details upon emergency sign-in, streamlining critical data access.
+                    </p>
+                    <p class="text-gray-500 text-sm md:text-base mb-6">
+                        <strong class="text-white">Technologies:</strong> Python (Tkinter/Flask), Database (SQLite/NoSQL), Encryption Libraries, UI/UX Design
+                    </p>
+                    <!-- Button with animation, no link -->
+                    <div class="inline-block bg-white text-black px-6 py-3 rounded-full text-md font-medium hover:bg-gray-300 transition-colors duration-300 non-clickable-button">
+                        View on GitHub
+                    </div>
+                </div>
+
+                <!-- Project 4: Rocker Bogie Mechanism -->
+                <div class="bg-gray-900 rounded-xl p-8 shadow-2xl border border-gray-700 hover:border-white transition-all duration-300 transform hover:-translate-y-2">
+                    <h3 class="text-2xl md:text-3xl font-semibold text-white mb-4">Rocker-Bogie Mechanism Rover Design</h3>
+                    <p class="text-gray-400 mb-6 text-base md:text-lg">
+                        Designed and developed a scalable model of a rocker-bogie mechanism, crucial for autonomous rover navigation in uneven terrains, focusing on stability and mobility.
+                    </p>
+                    <p class="text-gray-500 text-sm md:text-base mb-6">
+                        <strong class="text-white">Technologies:</strong> CAD Software (SolidWorks/Fusion 360), Robotics Principles, Mechanical Engineering, Prototyping
+                    </p>
+                    <!-- Button with animation, no link -->
+                    <div class="inline-block bg-white text-black px-6 py-3 rounded-full text-md font-medium hover:bg-gray-300 transition-colors duration-300 non-clickable-button">
+                        View on GitHub
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 md:py-28 bg-gray-950 px-8">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl md:text-5xl font-bold text-center text-white mb-12">My Skillset</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center text-gray-300">
+                <!-- Programming Languages -->
+                <div class="p-6 rounded-lg border border-gray-700 bg-gray-900 shadow-xl">
+                    <h3 class="text-xl font-semibold mb-3 text-white">Programming Languages</h3>
+                    <ul class="list-none space-y-2 text-md">
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>JavaScript (Basic)</li>
+                    </ul>
+                </div>
+                <!-- AI/ML & Data Science -->
+                <div class="p-6 rounded-lg border border-gray-700 bg-gray-900 shadow-xl">
+                    <h3 class="text-xl font-semibold mb-3 text-white">AI/ML & Data Science</h3>
+                    <ul class="list-none space-y-2 text-md">
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Computer Vision</li>
+                        <li>Data Analysis</li>
+                        <li>TensorFlow</li>
+                        <li>Keras</li>
+                        <li>Scikit-learn</li>
+                        <li>OpenCV</li>
+                    </ul>
+                </div>
+                <!-- Tools & Concepts -->
+                <div class="p-6 rounded-lg border border-gray-700 bg-gray-900 shadow-xl">
+                    <h3 class="text-xl font-semibold mb-3 text-white">Tools & Concepts</h3>
+                    <ul class="list-none space-y-2 text-md">
+                        <li>Git & GitHub</li>
+                        <li>IoT</li>
+                        <li>Arduino IDE</li>
+                        <li>Robotics Principles</li>
+                        <li>CAD Software</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 md:py-28 bg-black px-8">
+        <div class="container mx-auto max-w-3xl text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-white mb-12">Let's Connect</h2>
+            <p class="text-lg md:text-xl text-gray-300 mb-10">
+                I'm always open to discussing new projects, collaborations, or opportunities in AI and Data Science. Feel free to reach out!
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
+                <!-- Email "Button" - removed href attribute -->
+                <div class="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-300 transition-all duration-300 transform hover:scale-105 shadow-lg non-clickable-button">
+                    Email Me
+                </div>
+                <!-- LinkedIn "Button" - removed href attribute -->
+                <div class="bg-gray-800 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 shadow-lg non-clickable-button">
+                    LinkedIn
+                </div>
+                <!-- GitHub "Button" - removed href attribute -->
+                <div class="bg-gray-800 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 shadow-lg non-clickable-button">
+                    GitHub
+                </div>
+            </div>
+            <p class="mt-16 text-gray-500 text-sm">
+                &copy; <script>document.write(new Date().getFullYear())</script> Rohith. All rights reserved.
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>

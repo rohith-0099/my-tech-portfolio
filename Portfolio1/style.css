@@ -1,0 +1,35 @@
+/* style.css */
+
+body {
+    font-family: 'Inter', sans-serif; /* Using Inter font for all text */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000000; /* Pure black background */
+    color: #FFFFFF; /* Pure white text */
+    line-height: 1.6;
+}
+
+/* Custom scrollbar for a clean look */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #1a1a1a; /* Dark grey track */
+}
+::-webkit-scrollbar-thumb {
+    background: #444444; /* Medium grey thumb */
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #666666; /* Lighter grey on hover */
+}
+
+/* Styling for smooth scrolling to anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Make cursor default for non-clickable "buttons" */
+.non-clickable-button {
+    cursor: default;
+}
