@@ -1,5 +1,4 @@
 # my-tech-portfolio
-This portfolio website is a clean, minimalist black and white themed site designed to showcase projects and skills in Artificial Intelligence and Data Science. It serves as a central hub to highlight work and provide a professional overview of expertise.
 Rohith's AI & Data Science Portfolio
 Welcome to my personal portfolio website! This site showcases my projects and skills in Artificial Intelligence and Data Science, presented with a clean, minimalist black and white theme. It serves as a central hub to highlight my work and provide an overview of my expertise.
 
